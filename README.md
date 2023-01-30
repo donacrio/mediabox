@@ -11,4 +11,4 @@ This repo contains files I use to set up a media player on my Raspberry PI 3.
 
 ## Transmission
 
-- Configuration file: `settings.json`git
+- Configuration file: `settings.json`

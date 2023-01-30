@@ -7,7 +7,7 @@ User=osmc
 UMask=000
 WorkingDirectory=/home/osmc/flexget
 ExecStart=/home/osmc/flexget/bin/flexget daemon start --autoreload-config
-ExecStop=//home/osmc/flexget/bin/flexget daemon stop
+ExecStop=/home/osmc/flexget/bin/flexget daemon stop
 ExecReload=/home/osmc/flexget/bin/flexget daemon reload
 [Install]
 WantedBy=multi-user.target

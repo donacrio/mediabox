@@ -79,6 +79,8 @@ templates:
         - \bger(man)?\b
         - \bcastellano\b
         - \brus(sian)?\b
+        - \btamil\b
+        - \bhindi\b
     content_filter:
       reject:
         - '*.rar'
@@ -580,6 +582,15 @@ tasks:
       languages:
         - eng
         - fr
+      single: no
+      providers: [opensubtitles, tvsubtitles, podnapisi]
+      authentication:
+        opensubtitles:
+          username: "{? subtitles.user ?}"
+          password: "{? subtitles.pass ?}"
+        addic7ed:
+          username: "{? subtitles.user ?}"
+          password: "{? subtitles.pass ?}"
 
 
 ##### Clean finished torrents from transmission
